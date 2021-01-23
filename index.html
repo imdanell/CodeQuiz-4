@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Code Quiz</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css" />
+
+  <!--header-->
+  <header class="header">
+    <h1 class="display-5">Coding Quiz</h1>
+  </header>
+
+  <!--jumbotron to center quiz-->
+  <div class="container">
+    <div class="jumbotron text-center">
+      <p class="lead">Press start to begin quiz and timer, then answer the questions. </p>
+      <div id="timer">Time Left</div>
+        <div id="countdown">60</div>
+
+      <div class="questions"></div>
+      <div class="choices"></div>
+
+      <!--buttons which should start quiz and submit-->
+      <button id="startquiz">Start Quiz</button>
+
+    </div>
+  </div>
+
+  </body>
+
+  <!--link to js file-->
+  <script src="script.js"></script>
+
+</html>
